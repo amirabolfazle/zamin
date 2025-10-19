@@ -15,7 +15,7 @@
       --bg-layer1: linear-gradient(135deg, #8B4513 0%, #A0522D 50%, #CD853F 100%);
       --bg-layer2: linear-gradient(135deg, #654321 0%, #8B4513 100%);
       --bg-layer3: linear-gradient(135deg, #D2691E 0%, #F4A460 100%);
-      --card-bg: rgba(139, 69, 19, 0.9);
+      --card-bg: rgb(139, 69, 19);
       --accent: #FFD700;
       --text-primary: #FFF8DC;
       --text-secondary: #DEB887;
@@ -78,7 +78,7 @@
       z-index: 100;
       text-align: center;
       padding: 20px;
-      background: linear-gradient(135deg, var(--card-bg), rgba(139, 69, 19, 0.7));
+      background: linear-gradient(135deg, var(--card-bg), rgb(139, 69, 19));
       border-bottom: 3px solid var(--border);
       box-shadow: var(--shadow);
       backdrop-filter: blur(10px);
@@ -192,7 +192,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background: linear-gradient(135deg, var(--card-bg), rgba(139, 69, 19, 0.8));
+      background: var(--card-bg);
       z-index: 200;
       opacity: 0;
       transform: scale(0.8);
@@ -219,7 +219,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 10px 20px;
-      background: linear-gradient(135deg, var(--glass), rgba(139, 69, 19, 0.7));
+      background: linear-gradient(135deg, var(--card-bg), rgb(139, 69, 19));
       border-bottom: 2px solid var(--border);
     }
     .chat-header h2 {
@@ -464,7 +464,7 @@
       animation: fadeIn 0.5s ease;
     }
     .footer {
-      background: linear-gradient(135deg, var(--card-bg), rgba(139, 69, 19, 0.7));
+      background: linear-gradient(135deg, var(--card-bg), rgb(139, 69, 19));
       border-top: 2px solid var(--border);
       padding: 20px;
       text-align: center;
@@ -694,7 +694,7 @@
   </div>
 
   <footer class="footer">
-    <p>© 2025 ماکان | طراحی‌شده توسط <a href="https://amirabolfazl.ir" target="_blank">Amirabolfazl.ir </a>. تمامی حقوق محفوظ است.</p>
+    <p>© 2025 ماکان | طراحی‌شده توسط <a href="https://amirabolfazl.ir" target="_blank">amirabolfazl.ir </a>. تمامی حقوق محفوظ است.</p>
   </footer>
 
   <script>
